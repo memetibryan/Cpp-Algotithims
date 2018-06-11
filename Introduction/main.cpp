@@ -11,11 +11,11 @@ string name;
 string mystring;
 double radius;
 
-int main() {	
+int main() {
 	/*Takes user name*/
 	cout << "Enter your name please to proceed........ \n";
 	cin >> name;
-	
+
 	/*Calculate area of a circle*/
 	cout << "Enter radius to calculate the area \n";
 //	getline (cin, mystring);
@@ -26,7 +26,7 @@ int main() {
 	cout << pie * radius * radius;
 	cout << newline;
 	cout << newline;
-	
+
 // goto loop
 	int n=100;
 loop:
